@@ -1,6 +1,14 @@
 {
-	"name": "nodejs-online-compiler",
+	"name": "node-express-lab",
 	"version": "1.0.0",
+	"type": "module",
 	"main": "index.js",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.21.1",
+		"nodemon": "^3.1.7"
+	},
+	"scripts": {
+		"start": "nodemon index.js"
+	}
 }
